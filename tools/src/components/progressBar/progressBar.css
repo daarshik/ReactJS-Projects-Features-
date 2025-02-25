@@ -1,0 +1,21 @@
+.progress {
+  background-color: grey;
+  height: 25px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  background-color: gold;
+  width: var(--width);
+  height: 100%;
+  transition: 0.2s ease;
+}
+
+.text {
+  position: absolute;
+  top: 11%;
+  right: 50%;
+  z-index: 999;
+}
