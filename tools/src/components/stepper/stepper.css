@@ -1,0 +1,58 @@
+.container {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.stepper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.stepper-key {
+  background-color: rgb(165, 165, 176);
+  color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.selected {
+  background-color: rgb(13, 232, 31);
+  color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  padding: 10px;
+}
+.current {
+  background-color: rgba(243, 11, 11, 0.83);
+  color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.btnStyle {
+  margin: 10px;
+}
+
+.progress-bar {
+  position: absolute;
+  height: 4px;
+  background-color: rgb(165, 165, 176);
+  width: 100%;
+  z-index: -1;
+}
+
+.progress {
+  background-color: goldenrod;
+  height: 100%;
+  transition: 0.1s ease;
+}
